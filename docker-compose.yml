@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    environment:
+      - BACKEND_URL=http://backend:5000
+      - SECRET_KEY=a3f8c2e1d4b7a9f0e5c3b2d1a8f6e4c7b3d2a1f9e8c7b6a5d4c3b2a1f0e9d8
+
+  backend:
+    build: ./backend
+    expose:
+      - "5000"
+    environment:
+      - SECRET_KEY=a3f8c2e1d4b7a9f0e5c3b2d1a8f6e4c7b3d2a1f9e8c7b6a5d4c3b2a1f0e9d8
+      - TELEGRAM_BOT_TOKEN=8979856544:AAErnDwND_iCmS9o4ZJjbI0eqPiBr97Xm0g
+     
+       

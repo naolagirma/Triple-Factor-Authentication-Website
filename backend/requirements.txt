@@ -1,0 +1,7 @@
+flask
+bcrypt
+pyotp
+PyJWT
+qrcode[pil]
+python-telegram-bot
+requests
