@@ -1,7 +1,5 @@
 # Triple Factor Authentication for Social Media
 
-**SEC-PRJ-7F_25 — Systems Security, University of Messina**
-
 A Python/Flask implementation of triple factor authentication (3FA) for a social media login scenario, with a PHP/jQuery frontend and a real-time attack simulator.
 
 ---
