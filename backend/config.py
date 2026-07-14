@@ -27,7 +27,7 @@ used_otps      = {}  # "username:code" -> used_at timestamp
 # Telegram: create a bot via @BotFather, paste the token below
 # then have each user send any message to the bot and run /getUpdates
 # to find their chat_id
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8979856544:AAErnDwND_iCmS9o4ZJjbI0eqPiBr97Xm0g")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_IDS  = {"james007": 6875428404}
 
 
